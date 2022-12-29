@@ -7,23 +7,20 @@ public class TransporteTerrestre : ITransporte
 {
     public void Entregar()
     {
-        // lógica de entrega terrestre
+        Console.WriteLine("entregar via terrestre");
     }
 }
 
 public class TransporteAereo : ITransporte
 {
-    public void Entregar()
-    {
-        // lógica de entrega aérea
-    }
+    public void Entregar() => Console.WriteLine("lógica de entrega aérea");
 }
 
 public class TransporteMaritimo : ITransporte
 {
     public void Entregar()
     {
-        // lógica de entrega marítima
+        System.Console.WriteLine("lógica de entrega marítima");
     }
 }
 
